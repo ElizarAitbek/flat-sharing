@@ -2,7 +2,7 @@ import { IconButton } from "../ui/icon-button";
 
 export const ApplyNow = () => {
   return (
-    <div className="container m-[180px] flex flex-col items-center rounded-3xl bg-primary-light py-[100px] text-center">
+    <div className="container my-[180px] flex flex-col items-center rounded-3xl bg-primary-light py-[100px] text-center">
       <h1 className="mb-6 font-roboto-condensed text-6xl font-bold italic">
         TRAVEL <br /> WITH FLATSHARING
       </h1>
