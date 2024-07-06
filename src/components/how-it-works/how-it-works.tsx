@@ -4,7 +4,7 @@ import { IconButton } from "../ui/icon-button";
 export const HowItWorks = () => {
   return (
     <div className="container flex flex-col items-center gap-10">
-      <h2 className="mt-[180px] text-center font-roboto-condensed text-6xl font-bold italic text-primary-dark">
+      <h2 className="text-primary-dark mt-[180px] text-center font-roboto-condensed text-6xl font-bold italic">
         How it works
       </h2>
 
