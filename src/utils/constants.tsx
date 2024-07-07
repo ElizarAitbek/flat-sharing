@@ -1,3 +1,6 @@
+export const BASE_URL = import.meta.env.VITE_BASE_URL;
+export const API_KEY = import.meta.env.VITE_API_KEY;
+
 export const LOGOS = [
   { id: 1, url: "/icons/meta.svg", name: "meta" },
   { id: 2, url: "/icons/booking.svg", name: "booking" },
