@@ -1,11 +1,11 @@
-import { API_KEY, BASE_URL } from "@/utils/constants";
+import { axiosInstance } from "@/api/api";
+import { API_KEY } from "@/utils/constants";
 import { useQuery } from "@tanstack/react-query";
-import axios from "axios";
 import { useEffect } from "react";
 
 const getData = async () => {
-  const res = await axios.get(
-    `${BASE_URL}?query=$apartment-interior&page=1&per_page=4&client_id=${API_KEY}`
+  const res = await axiosInstance.get(
+    `?query=$apartment-interior&page=1&per_page=4&client_id=${API_KEY}`
   );
   return res.data.results;
 };
