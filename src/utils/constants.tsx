@@ -13,25 +13,21 @@ export const LOGOS = [
 export const HOW_IT_WORKS_IMAGES = [
   {
     id: 1,
-    url: "/images/photo-1.png",
     title: "Access the community",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
   },
   {
     id: 2,
-    url: "/images/photo-2.png",
     title: "Rent for long term price",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
   },
   {
     id: 3,
-    url: "/images/photo-3.png",
     title: "Host your",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
   },
   {
     id: 4,
-    url: "/images/photo-4.png",
     title: "Network the community",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
   }
