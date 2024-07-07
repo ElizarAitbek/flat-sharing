@@ -5,7 +5,7 @@ import { FrequentlyAskedQuestions } from "../components/faq/faq";
 import { HowItWorks } from "../components/how-it-works/how-it-works";
 import { Layout } from "../layout/layout/layout";
 
-export const Home = () => {
+export const Main = () => {
   return (
     <Layout>
       <Banner />
